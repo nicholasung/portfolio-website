@@ -72,7 +72,7 @@ export default function Projects() {
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
-                  className="object-cover transition-all hover:scale-105"
+                  className="object-contain transition-all hover:scale-105"
                 />
               </div>
               <CardHeader className="flex-1">

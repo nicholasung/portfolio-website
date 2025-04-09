@@ -11,16 +11,16 @@ export default function Hero() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                Hi, I'm Nic Ung
+                I'm Nic Ung
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Computer Science Student | DevOps Enthusiast | Embedded Systems Developer
+                UBC Computer Science Student | Homelabbing Enthusiast | Embedded Systems Developer
               </p>
             </div>
             <div className="space-y-4 md:space-y-6">
               <p className="max-w-[600px] text-muted-foreground">
-                I'm passionate about homelabbing, server infrastructure, and embedded systems development. Outside of this, I enjoy Cars, 3D printing and modelling, and cooking.
-                Currently seeking opportunities in DevOps and embedded systems roles.
+                I'm passionate about homelabbing, server infrastructure, and embedded systems development. My other hobbies I enjoy include cars, 3D printing/modelling, and cooking.
+                Currently seeking opportunities in DevOps, Embedded System Development, or other SWE roles.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild>
@@ -41,7 +41,11 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-primary/50 opacity-20 blur-3xl"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="h-[250px] w-[250px] sm:h-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] rounded-full bg-muted flex items-center justify-center">
-                  <span className="text-4xl">👨‍💻</span>
+                  <img
+                    src="images/me.png" 
+                    alt="Profile"
+                    className="h-[200px] w-[200px] sm:h-[300px] sm:w-[300px] lg:h-[350px] lg:w-[350px] rounded-full object-cover"
+                  />
                 </div>
               </div>
             </div>
