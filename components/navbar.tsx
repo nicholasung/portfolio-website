@@ -34,6 +34,10 @@ export default function Navbar() {
       href: "#education",
       label: "Education",
     },
+    {
+      href: "https://links.nicholasung.com",
+      label: "Links",
+    },
   ]
 
   return (

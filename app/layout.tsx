@@ -1,15 +1,15 @@
-import type React from "react"
 import "@/app/globals.css"
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import Navbar from "@/components/navbar"
+import { ThemeProvider } from "@/components/theme-provider"
+import { Inter } from "next/font/google"
+import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Portfolio | CS Student",
-  description: "Portfolio website showcasing homelabbing, embedded projects, and DevOps skills",
+  title: "Nic Ung",
+  description: "`",
     generator: 'v0.dev'
 }
 
