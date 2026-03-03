@@ -20,7 +20,6 @@ export default function Hero() {
             <div className="space-y-4 md:space-y-6">
               <p className="max-w-[600px] text-muted-foreground">
                 I'm passionate about homelabbing, server infrastructure, and embedded systems development. My other hobbies I enjoy include cars, 3D printing/modelling, and cooking.
-                Currently seeking opportunities in DevOps, Embedded System Development, or other SWE roles.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild>

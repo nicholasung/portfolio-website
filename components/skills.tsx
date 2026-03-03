@@ -9,12 +9,13 @@ export default function Skills() {
       description: "Building and maintaining scalable infrastructure",
       icon: <Server className="h-10 w-10" />,
       skills: [
-        "Docker & Kubernetes",
-        "Linux System Administration",
-        "Cloud Platforms (AWS, Azure)",
-        "Unraid",
-        "TrueNAS",
-        "OPNSense"
+        "Docker",
+        "Azure Pipelines",
+        "Azure Test Plans",
+        "Azure Key Vault",
+        "GitHub Actions",
+        "Jenkins",
+        "Code Signing",
       ],
     },
     {

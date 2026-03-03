@@ -4,6 +4,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export default function Experience() {
   const experiences = [
     {
+      title: "DevOps Engineer Co-op",
+      company: "Teledyne FLIR IIS Machine Vision",
+      period: "September 2024 - Current",
+      description:
+        "Facilitated a full migration from a locally hosted Atlassian suite to a Cloud Based Repository and Build Management System. Maintained and enabled developer work throughout the migration while improving nightly build success from 30% to 90% across all platforms",
+      skills: ["Azure DevOps Suite", "GitHub Actions", "Bash", "Jenkins", "Docker", "BitBucket", "SVN", "TM4J"],
+    },
+    {
       title: "IT Advisor/Code Sensei",
       company: "Code Ninjas",
       period: "June 2024 - Current",

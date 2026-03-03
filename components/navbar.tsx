@@ -19,16 +19,16 @@ export default function Navbar() {
       label: "Home",
     },
     {
-      href: "#projects",
-      label: "Projects",
-    },
-    {
       href: "#skills",
       label: "Skills",
     },
     {
       href: "#experience",
       label: "Experience",
+    },
+    {
+      href: "#projects",
+      label: "Projects",
     },
     {
       href: "#education",
